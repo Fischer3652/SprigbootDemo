@@ -13,6 +13,8 @@ public class UserController {
     public String queryUser(@RequestParam String userName){
         System.out.println("queryUser");
         System.out.println("queryUser2++++++++++++++++++++++++++++");
+        System.out.println("queryUser2++++++++++++++++++++++++++++");
+        System.out.println("queryUser2++++++++++++++++++++++++++++");
         return userName;
     }
 }
